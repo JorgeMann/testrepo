@@ -1,0 +1,30 @@
+const porsjoner = 16
+
+console.log("Ingredienser til blautkake: ");
+
+const egg = 5 / 16 * porsjoner;
+const skrhvtml = 150 / 16 * porsjoner;
+const krmfløte = 3 / 16 * porsjoner;
+const bkplvrmelkbanan = 1 / 16 * porsjoner;
+const melisjrdbær = 2 / 16 * porsjoner;
+const jrdbærsylt = 8 / 16 * porsjoner;
+const valnøtt = 50 / 16 * porsjoner;
+
+console.log(" ");
+console.log("Sukkerbrød: ");
+
+console.log(`egg: ${egg.toFixed(0)} stk`);
+console.log(`sukker: ${skrhvtml.toFixed(0)} g`);
+console.log(`hvetemel: ${skrhvtml.toFixed(0)} g`);
+console.log(`bakepulver: ${bkplvrmelkbanan.toFixed(0)} ts`);
+
+console.log(" ");
+console.log("Fyll og pynt: ");
+
+console.log(`kremfløte: ${krmfløte.toFixed(0)} pk`);
+console.log(`melis: ${melisjrdbær.toFixed(0)} ss`);
+console.log(`melk eller eplejuice til dynking: ${bkplvrmelkbanan.toFixed(0)} dl`);
+console.log(`jordbærsyltetøy: ${jrdbærsylt.toFixed(0)} ss`);
+console.log(`grovhakkede valnøttkjerner: ${valnøtt.toFixed(0)} g`);
+console.log(`banan: ${bkplvrmelkbanan.toFixed(0)} stk`);
+console.log(`jordbær: ${melisjrdbær.toFixed(0)} pk`);
